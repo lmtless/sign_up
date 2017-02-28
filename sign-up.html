@@ -13,7 +13,7 @@
 </head>
 <body>
 	<header><img src="logo.png" class="logo"></header>
-	<section class="form">
+	<main class="form">
 
 		<form class="signup-form" action="/signup/" method="post">
 			<h1>Sign up</h1>
@@ -22,8 +22,12 @@
 
 			<label for="password" required>Password</label>
 			<input type="password" name="password" id="password" placeholder="1234passw0rd" required>
-			
+			<button type="submit" class="signup">Sign Up</button>
+			<a href="/forgot-password/new" class="forgot">Forgot Password?</a>
 		</form>
+	</main>
+	<section class="registered">
+		<p>Already have an account? <a href="/login" class="login">Log in</a></p>
 	</section>
 
 </body>

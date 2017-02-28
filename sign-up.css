@@ -1,6 +1,6 @@
 body {
 	margin: 0;
-	background-color: dodgerblue;
+	background-color: #6799ff;
 	font-family: "roboto", sans-serif;
 	height: 100%;
 	width: 100%;
@@ -13,6 +13,7 @@ body {
 	display: block;
 	text-align: center;
 	margin-top: 50px;
+	margin-bottom: 30px;
 }
 .form {
 	background-color: white;
@@ -23,6 +24,8 @@ body {
 	padding-left: 40px;
 	padding-right: 40px;
 	width: 400px;
+	padding-top: 20px;
+	padding-bottom: 20px;
 
 }
 h1 {
@@ -30,6 +33,7 @@ h1 {
 	font-weight: 100;
 	font-size: 35px;
 	color: #383838;
+	margin-bottom: 40px;
 }
 .signup-form label {
 	display: block;
@@ -37,7 +41,7 @@ h1 {
 }
 .signup-form input {
 	display: block;
-	margin-bottom: 10px;
+	margin-bottom: 20px;
 	box-sizing: border-box;
 	width: 320px;
 	height: 55px;
@@ -45,4 +49,38 @@ h1 {
 	padding: 15px;
 	font-size: 17px;
 	border-radius: 3px;
+}
+.signup-form button {
+	display: block;
+	margin-bottom: 10px;
+	box-sizing: border-box;
+	width: 320px;
+	height: 55px;
+	border: 2px lightgrey solid;
+	padding: 15px;
+	font-size: 20px;
+	border-radius: 3px;
+	background-color: #3Cb371;
+	color: white;
+	border: none;
+}
+label	{
+	display: block;
+	margin-bottom: 20px;
+}
+.signup:hover {
+	background-color: #006400;
+}
+.forgot {
+	display: block;
+	text-align: center;
+	color: grey;
+}
+.registered {
+	display: block;
+	text-align: center;
+	color: white;
+}
+.login	{
+	color: white;
 }
